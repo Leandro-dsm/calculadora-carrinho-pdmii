@@ -1,4 +1,4 @@
-package com.example.calculadoracarrinho.ui.theme.components
+package com.example.calculadoracarrinho.ui.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
