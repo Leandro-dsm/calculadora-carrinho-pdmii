@@ -42,10 +42,8 @@ object CarrinhoRepository {
     )
 
     val carrinho: List<ItemCarrinho> = listOf(
-        ItemCarrinho(catalogo[0], 2),
-        ItemCarrinho(catalogo[1], 1),
-        ItemCarrinho(catalogo[2], 1),
-        ItemCarrinho(catalogo[3], 1),
-        ItemCarrinho(catalogo[5], 1)
+        ItemCarrinho(catalogo[0], 2),   // Notebook Dell Inspiron (5% desc)
+        ItemCarrinho(catalogo[1], 1),   // Mouse sem fio
+        ItemCarrinho(catalogo[2], 1)    // Teclado mecânico RGB
     )
 }
