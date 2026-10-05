@@ -1,6 +1,6 @@
 # Calculadora de Carrinho de Compras
 
-**Aluno:** Leandro Sabino Sueoka
+**Aluno:** Leandro Sueoka
 **Disciplina:** Programação para Dispositivos Móveis II
 **Instituição:** Fatec Registro
 
@@ -11,10 +11,22 @@ carrinho de compras, aplica descontos e gera um relatório formatado no Logcat.
 
 ## Funcionalidades
 
-- Catálogo fixo de produtos com nome, preço, descrição e desconto
+- Catálogo fixo de 6 produtos com nome, preço, descrição e desconto
 - Cálculo de subtotal bruto, descontos e total final
 - Componente de UI reutilizável e parametrizado
 - Relatório no Logcat com produtos que tiveram desconto aplicado
+
+## Cenário de validação
+
+| Item | Qtd | Total |
+|---|---|---|
+| Notebook Dell Inspiron | 2 | R$ 6.648,10 |
+| Mouse sem fio | 1 | R$ 89,90 |
+| Teclado mecânico RGB | 1 | R$ 349,90 |
+
+- Subtotal bruto: **R$ 7.437,80**
+- Descontos aplicados: **R$ 349,90**
+- Valor total final: **R$ 7.087,90**
 
 ## Arquitetura
 
